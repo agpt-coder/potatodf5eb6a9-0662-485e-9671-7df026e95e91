@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "potato"
+version = "0.1.0"
+description = "The task involves creating an API that accepts any input/api call and returns a photo of a potato. Based on the discussion and information gathered: "
+authors = ["AutoGPT <info@agpt.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+fastapi = "*"
+httpx = "*"
+prisma = "*"
+pydantic = "*"
+uvicorn = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
